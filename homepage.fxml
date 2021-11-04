@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D4669;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.homeController">
+   <children>
+      <ImageView fitHeight="260.0" fitWidth="456.0" layoutY="121.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://22obck1zgt7o33pn5k1gokxy-wpengine.netdna-ssl.com/wp-content/uploads/sites/17/2020/04/ArizonaHeartHospital.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="14.0" layoutY="34.0" text="El Hospital" textFill="#e8e5e5" underline="true">
+         <font>
+            <Font name="Bodoni 72 Smallcaps Book" size="64.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="484.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="619 E Ligma Dr." />
+      <Text fill="WHITE" layoutX="462.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="elhospital@aol.com" />
+      <Text fill="WHITE" layoutX="485.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="310-748-1452" />
+      <VBox layoutX="472.0" layoutY="145.0" prefHeight="200.0" prefWidth="100.0" spacing="20.0">
+         <children>
+            <Button fx:id="nursedoc" mnemonicParsing="false" onAction="#handleNurseDoc" text="Staff Login" />
+            <Button fx:id="patient" mnemonicParsing="false" onAction="#handlePatient" text="Patient Portal" />
+            <Button fx:id="staff" mnemonicParsing="false" onAction="#handleStaff" text="Meet our Staff!" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

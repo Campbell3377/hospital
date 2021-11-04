@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D4669;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.nursePortalController">
+   <children>
+      <ImageView fitHeight="93.0" fitWidth="73.0" layoutX="206.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://w7.pngwing.com/pngs/174/625/png-transparent-universal-health-care-3d-logo-cure-health-human-people-universal-care-hospital.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="289.0" layoutY="-10.0" prefHeight="102.0" prefWidth="128.0" text="El Hospital" textFill="WHITE">
+         <font>
+            <Font name="Bodoni 72 Smallcaps Book" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="home" layoutX="39.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleHome" text="Back to Home" />
+      <BorderPane layoutX="26.0" layoutY="112.0" prefHeight="261.0" prefWidth="263.0" style="-fx-background-color: grey;">
+         <center>
+            <ImageView fitHeight="247.0" fitWidth="346.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="https://www.unitex.com/wp-content/uploads/2018/04/Unitex-Nursing-Shortage-1.jpg" />
+               </image>
+            </ImageView>
+         </center>
+      </BorderPane>
+      <Button layoutX="376.0" layoutY="173.0" mnemonicParsing="false" text="View Patients" />
+      <Button layoutX="376.0" layoutY="123.0" mnemonicParsing="false" text="Create New Patient" />
+      <Button layoutX="376.0" layoutY="282.0" mnemonicParsing="false" text="Contact Patient" />
+      <Button layoutX="376.0" layoutY="229.0" mnemonicParsing="false" text="Update Patient Information" />
+      <Text fill="WHITE" layoutX="300.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nurse Portal">
+         <font>
+            <Font name="Bodoni 72 Oldstyle Bold" size="14.0" />
+         </font>
+      </Text>
+      <Button layoutX="376.0" layoutY="330.0" mnemonicParsing="false" text="Make New Appointment" />
+   </children>
+</AnchorPane>

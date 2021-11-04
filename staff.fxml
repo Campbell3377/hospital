@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D4669;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.staffController">
+   <children>
+      <ImageView fitHeight="121.0" fitWidth="102.0" layoutX="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/hos.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="276.0" layoutY="45.0" text="Meet Our Staff!" textFill="#f5f3f3">
+         <font>
+            <Font name="Bodoni 72 Smallcaps Book" size="36.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="72.0" fitWidth="75.0" layoutX="14.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/bennyboy.jpeg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="108.0" fitWidth="62.0" layoutX="94.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/Screen%20Shot%202021-09-25%20at%203.49.09%20PM.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="181.0" layoutY="140.0" text="Dr. Stephan Strange M.D." textFill="#e4e3e3" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="180.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Born in New York City, Dr.Strange obtained a masters and p.h.d. studying at Columbia University in nueroscience, and has become a highly talented and respected nuerosurgeon." wrappingWidth="422.27783203125" />
+      <ImageView fitHeight="93.0" fitWidth="157.0" layoutX="8.0" layoutY="272.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../pictures/gooddoc.jpeg" />
+         </image>
+      </ImageView>
+      <Label layoutX="179.0" layoutY="262.0" text="Dr. Shaun Murphy M.D." textFill="#e4e3e3" underline="true">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Text fill="WHITE" layoutX="179.0" layoutY="312.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dr. Shaun Murphy was born and raised in San Fransisco, CA obtaining a medical doctorate specializing in surgery. Although Dr.Murphy is a young doctor diagnosed with autism and savant syndrome, he has proven himself to possess extraordinary medical prowess and has saved countless lives" wrappingWidth="422.27783203125" />
+      <Button fx:id="home" layoutX="25.0" layoutY="32.0" mnemonicParsing="false" onAction="#handleHome" text="Back to Home" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2D4663;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.docNurseLoginController">
+   <children>
+      <ImageView fitHeight="105.0" fitWidth="66.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="https://w7.pngwing.com/pngs/174/625/png-transparent-universal-health-care-3d-logo-cure-health-human-people-universal-care-hospital.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="282.0" layoutY="-17.0" prefHeight="127.0" prefWidth="157.0" text="El Hospital" textFill="WHITE">
+         <font>
+            <Font name="Bodoni 72 Smallcaps Book" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="530.0" layoutY="20.0" mnemonicParsing="false" text="Sign UP" />
+      <Label layoutX="445.0" layoutY="24.0" text="New Patient?" textFill="#fcf2f2" />
+      <Label layoutX="131.0" layoutY="138.0" text="Doctor Portal" textFill="#f8f7f7" />
+      <TextField layoutX="87.0" layoutY="176.0" />
+      <TextField layoutX="88.0" layoutY="228.0" />
+      <TextField layoutX="366.0" layoutY="176.0" />
+      <TextField layoutX="365.0" layoutY="229.0" />
+      <Label layoutX="392.0" layoutY="138.0" text="Nurse Portal" textFill="WHITE" />
+      <Button fx:id="docLogin" layoutX="145.0" layoutY="269.0" mnemonicParsing="false" onAction="#docAction" text="Login" />
+      <Button fx:id="nurseLogin" layoutX="422.0" layoutY="269.0" mnemonicParsing="false" onAction="#nurseAction" text="Login" />
+      <Button fx:id="home" layoutX="39.0" layoutY="20.0" mnemonicParsing="false" onAction="#handleHome" text="Back to Home" />
+      <Label layoutX="25.0" layoutY="180.0" text="Username" textFill="#d7d7d7" />
+      <Label layoutX="24.0" layoutY="233.0" text="Password" textFill="#e4e4e4" />
+      <Label layoutX="302.0" layoutY="181.0" text="Username" textFill="#e1e1e1" />
+      <Label layoutX="304.0" layoutY="233.0" text="Password" textFill="#e4e4e4" />
+   </children>
+</AnchorPane>
