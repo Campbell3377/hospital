@@ -10,7 +10,7 @@
    <children>
       <ImageView fitHeight="105.0" fitWidth="66.0" layoutX="200.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="https://w7.pngwing.com/pngs/174/625/png-transparent-universal-health-care-3d-logo-cure-health-human-people-universal-care-hospital.png" />
+            <Image url="@../pictures/logo.png" />
          </image>
       </ImageView>
       <Label layoutX="282.0" layoutY="-17.0" prefHeight="127.0" prefWidth="157.0" text="El Hospital" textFill="WHITE">
