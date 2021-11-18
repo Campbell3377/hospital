@@ -5,6 +5,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.*;
@@ -31,7 +32,7 @@ public class docNurseLoginController implements Initializable
     {
         try
         {
-            AnchorPane page = (AnchorPane) FXMLLoader.load(getClass().getResource("Docportal.fxml"));
+            Parent page = FXMLLoader.load(getClass().getResource("Docportal.fxml"));
             Scene scene = new Scene(page);
             Stage stage = (Stage) (docLogin.getScene().getWindow());
             stage.setScene(scene);
@@ -45,7 +46,7 @@ public class docNurseLoginController implements Initializable
     {
         try
         {
-            AnchorPane page = (AnchorPane) FXMLLoader.load(getClass().getResource("Nurseportal.fxml"));
+            Parent page = FXMLLoader.load(getClass().getResource("Nurseportal.fxml"));
             Scene scene = new Scene(page);
             Stage stage = (Stage) (nurseLogin.getScene().getWindow());
             stage.setScene(scene);
@@ -59,7 +60,7 @@ public class docNurseLoginController implements Initializable
     {
         try
         {
-            AnchorPane page = (AnchorPane) FXMLLoader.load(getClass().getResource("homepage.fxml"));
+            Parent page = FXMLLoader.load(getClass().getResource("homepage.fxml"));
             Scene scene = new Scene(page);
             Stage stage = (Stage) (home.getScene().getWindow());
             stage.setScene(scene);
